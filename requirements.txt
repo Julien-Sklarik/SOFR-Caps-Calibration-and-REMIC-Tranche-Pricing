@@ -1,0 +1,6 @@
+numpy>=1.24
+pandas>=1.5
+scipy>=1.10
+matplotlib>=3.7
+python-dateutil>=2.8
+plotly>=5.18
