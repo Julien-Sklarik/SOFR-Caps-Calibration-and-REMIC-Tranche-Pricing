@@ -1,6 +1,6 @@
-Place the five CSV files here. The code expects single column CSVs with the following names.
+You can place your own CSV files here. The code expects single column CSVs with the following names.
 
-Required columns
+## Here are there required columns
 1  accrual_dfs for accrual discount factors
 2  payment_dfs for payment discount factors
 3  BBG_swap_rates for par swap rates used as cap strikes
