@@ -35,19 +35,6 @@ LICENSE
 4  Run scripts slash price underscore remic dot py to produce tranche values and option adjusted spread  
 5  Open the notebook for an end to end narrative with figures  
 
-## Inputs expected under data
-1  P underscore caplet underscore accruals underscore YYYYMMDD dot csv with a single column named accrual underscore dfs  
-2  P underscore caplet underscore payments underscore YYYYMMDD dot csv with a single column named payment underscore dfs  
-3  cap underscore sofr underscore atm underscore strikes underscore YYYYMMDD dot csv with a single column named BBG underscore swap underscore rates  
-4  cap underscore sofr underscore atm underscore bachelier underscore vols underscore YYYYMMDD dot csv with a single column named bachelier underscore vols in basis points  
-5  sofr underscore cap underscore bloomberg underscore pv underscore YYYYMMDD dot csv with a single column named BBG underscore sofr underscore caps in dollars for a ten million notional cap  
-
-## Outputs written to results
-1  hw underscore fit dot json with kappa sigma and optional error metrics  
-2  theta underscore t dot json with a monthly grid and the fitted theta path  
-3  remic underscore summary dot json with price per one hundred standard error per one hundred and option adjusted spread for FA and SA  
-4  residuals and theta figures that the notebook saves for quick review  
-
 ## Figures
 These images are created by the notebook or can be refreshed by rerunning the scripts  
 
