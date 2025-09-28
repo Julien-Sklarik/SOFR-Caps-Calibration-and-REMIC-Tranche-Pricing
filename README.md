@@ -1,12 +1,7 @@
 SOFR Caps Calibration and REMIC Tranche Pricing in Python
 
 Project summary
-I built a compact fixed income library that calibrates a one factor Hull White short rate model to SOFR cap prices for a single trade date and then prices a REMIC floater and a support tranche with option adjusted spread. The code is self contained, readable, and designed for review in a hiring process.
-
-Who this is for
-1  Reviewers who want to see practical model implementation with clean interfaces
-2  Portfolio and risk teams that care about calibration discipline and reproducibility
-3  Engineers who like small libraries with scripts and a narrative notebook
+I built a compact fixed income library that calibrates a one factor Hull White short rate model to SOFR cap prices for a single trade date and then prices a REMIC floater and a support tranche with option adjusted spread. 
 
 What I built
 1  A reusable package under src that holds the curve tools, Hull White pricing, and a REMIC engine
@@ -15,7 +10,6 @@ What I built
 4  A walkthrough notebook that ties the work together and produces figures
 
 Repository structure
-Copy paths exactly as written below
 src slash quantfi slash __init__.py
 src slash quantfi slash curves.py
 src slash quantfi slash hull_white.py
@@ -68,8 +62,5 @@ Testing
 1  Minimal smoke tests cover shapes and simple invariants
 2  Add more cases easily under tests when you want deeper checks
 
-License
-MIT for ease of reuse in interviews and review settings
-
 Acknowledgment
-This work grew out of my time at UC Berkeley and was restructured here as a clean independent project for review
+This work grew out of my time at UC Berkeley and was restructured here as an independent project
